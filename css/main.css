@@ -11,8 +11,12 @@
   list-style: none;
 }
 /* Site-hero */
+.hero {
+  background-color: var(--third-bg-color);
+}
+
 .hero-title {
-  color: aqua;
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -27,9 +31,11 @@
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
+  text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* Section */
 .section-title {
@@ -39,6 +45,8 @@
   line-height: 1.17;
   text-align: center;
 }
+
+/* Преймущества  */
 .features .list-title {
   color: var(--title-text-color);
 
@@ -50,6 +58,10 @@
 .features .text {
   font-size: 14px;
   line-height: 1.71;
+}
+/* Персонал */
+.stuff {
+  background-color: var(--secondary-bg-color);
 }
 .team .title {
   color: var(--title-text-color);
